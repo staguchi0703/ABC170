@@ -28,10 +28,18 @@ class TestClass(unittest.TestCase):
         output = """3"""
         self.assertIO(input, output)
 
+    def test_入力例_2(self):
+        input = """4
+5 5 5 5"""
+        output = """0"""
+        self.assertIO(input, output)
+
+
+
     def test_入力例_3(self):
-        input = """10
-33 18 45 28 8 19 89 86 2 4"""
-        output = """5"""
+        input = """4
+2 4 2 8"""
+        output = """0"""
         self.assertIO(input, output)
 
 
